@@ -43,7 +43,6 @@ def get_from_db():
 
 def sendmail(msg):
     """sends a mail for a specific person """
-
     my_email = os.environ.get('my_email')
     my_pass = os.environ.get('my_pass')
     receiver = os.environ.get('receiver')
