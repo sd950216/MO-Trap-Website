@@ -36,6 +36,7 @@ class SiteDatabase(db.Model):
 db.create_all()
 
 
+# -----------------------------------
 def get_from_db():
     return SiteDatabase.query.all()
 
